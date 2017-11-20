@@ -1,0 +1,66 @@
+.container {
+
+}
+
+.row {
+	padding: 20px 15px;
+}
+
+/*Header/Navbar*/
+a {
+	color: black;
+}
+
+/*************************************************Main Content*******************************************************/
+
+/*short bio*/
+#title {
+	margin-top: 50%;
+	border-left: 2px solid #868e96;
+	padding-left: 15px;
+}
+
+#boldletter {
+	color: orange;
+}
+
+#summary {
+	padding-left: 17px;
+}
+
+#readmore {
+	margin-left: 17px;
+}
+
+
+/*pic*/
+
+#mypic {
+	float: right;
+	border-radius: 4px;
+}
+
+
+/*******************************************Media Queries************************************************/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+	
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { 
+	 
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) { 
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+
+}
+
+/*#868e96 #464a4e*/
