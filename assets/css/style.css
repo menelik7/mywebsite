@@ -15,8 +15,11 @@ body {
 }
 
 /*Header/Navbar*/
+
 #header {
-	/*background: #fff;*/
+	font-family: 'Fjalla One', sans-serif;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 #name {
@@ -26,18 +29,13 @@ body {
 h2 {
 	font-family: 'Fjalla One', sans-serif;
 }
+
 a {
 	color: #464a4e;
 }
 
 a:hover {
 	color: #FF530D;
-}
-
-#header {
-	font-family: 'Fjalla One', sans-serif;
-	padding-left: 80px;
-	padding-right: 80px;
 }
 
 #contact {
@@ -47,19 +45,15 @@ a:hover {
 
 /*************************************************Main Content*******************************************************/
 
-/*short bio*/
+/*Work*/
 .col-md-4 {
 	padding-left: 40px;
 }
 
-#title {
-	margin-top: 25%;
+#job-title {
+	margin-top: 10%;
 	border-left: 2px solid #868e96;
 	padding-left: 15px;
-}
-
-#mission-statement {
-	color: #fff;
 }
 
 #boldletter {
@@ -68,7 +62,7 @@ a:hover {
 	font-size: 2em;
 }
 
-#summary {
+#mission-statement {
 	padding-left: 20px;
 }
 
@@ -78,12 +72,39 @@ a:hover {
 	cursor: pointer;
 }
 
-
-/*pic*/
-#script-pic {
-	margin-top: 20px;
+/*Qualities*/
+#quality-initial1,
+#quality-initial2 {
+	font-family: 'Monoton', cursive;
+	
 }
 
+#quality-initial1 {
+	color: #FF530D;
+}
+
+#quality-initial2 {
+	color: #FFF;
+}
+
+#quality1 {
+	margin-top: 150px;
+	text-align: center;
+	min-height: 500px;
+	font-family: 'Righteous', cursive;
+	font-size: 7em;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+
+#quality2 {
+	float: right;
+	margin-top: 150px;
+	font-family: 'Righteous', cursive;
+	font-size: 5em;
+}
+/*pic*/
 #mypic {
 	border-radius: 10px;
 }
