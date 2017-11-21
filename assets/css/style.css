@@ -1,9 +1,9 @@
 body {
-	background: url("../images/dust_scratches.png");
-}
-
-#header {
-	background: #fff;
+	background: url("../images/falc3.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .container-fluid {
@@ -15,8 +15,15 @@ body {
 }
 
 /*Header/Navbar*/
-h2 {
+#header {
+	/*background: #fff;*/
+}
+
+#name {
 	cursor: pointer;
+}
+
+h2 {
 	font-family: 'Fjalla One', sans-serif;
 }
 a {
@@ -29,8 +36,8 @@ a:hover {
 
 #header {
 	font-family: 'Fjalla One', sans-serif;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 #contact {
@@ -41,10 +48,18 @@ a:hover {
 /*************************************************Main Content*******************************************************/
 
 /*short bio*/
+.col-md-4 {
+	padding-left: 40px;
+}
+
 #title {
-	margin-top: 20%;
+	margin-top: 25%;
 	border-left: 2px solid #868e96;
 	padding-left: 15px;
+}
+
+#mission-statement {
+	color: #fff;
 }
 
 #boldletter {
@@ -54,19 +69,19 @@ a:hover {
 }
 
 #summary {
-	padding-left: 17px;
+	padding-left: 20px;
 }
 
 #readmore {
-	margin-left: 17px;
+	margin-left: 20px;
 	border-radius: 20px;
 	cursor: pointer;
 }
 
 
 /*pic*/
-#pic-container {
-	
+#script-pic {
+	margin-top: 20px;
 }
 
 #mypic {
