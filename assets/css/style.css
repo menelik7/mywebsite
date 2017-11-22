@@ -1,17 +1,19 @@
 body {
+	
+}
+
+#landing-page {
 	background: url("../images/falc3.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-.container-fluid {
 	color: #464a4e;
 }
 
 .row {
 	padding: 15px;
+	margin-bottom: 0;
 }
 
 /*Header/Navbar*/
@@ -26,7 +28,9 @@ body {
 	cursor: pointer;
 }
 
-h2 {
+h2,
+#learn-more,
+#mission-statement {
 	font-family: 'Fjalla One', sans-serif;
 }
 
@@ -38,6 +42,11 @@ a:hover {
 	color: #FF530D;
 }
 
+#home {
+	margin-top: -3px;
+	margin-right: -3px;
+}
+
 #contact {
 	border-radius: 20px;
 	cursor: pointer;
@@ -45,13 +54,10 @@ a:hover {
 
 /*************************************************Main Content*******************************************************/
 
-/*Work*/
-.col-md-4 {
-	padding-left: 40px;
-}
+/* 1.Work */
 
 #job-title {
-	margin-top: 10%;
+	margin-top: 8%;
 	border-left: 2px solid #868e96;
 	padding-left: 15px;
 }
@@ -66,7 +72,7 @@ a:hover {
 	padding-left: 20px;
 }
 
-#readmore {
+#learn-more {
 	margin-left: 20px;
 	border-radius: 20px;
 	cursor: pointer;
@@ -100,6 +106,7 @@ a:hover {
 
 #quality2 {
 	float: right;
+	margin-right: 20px;
 	margin-top: 150px;
 	font-family: 'Righteous', cursive;
 	font-size: 5em;
@@ -109,6 +116,34 @@ a:hover {
 	border-radius: 10px;
 }
 
+
+/* 1.About */
+
+/* 3. Portfolio */
+
+#portfolio-page {
+	background: url("../images/dust_scratches.png");
+	color: #464a4e;
+}
+
+#portfolio-cards {
+	padding: 0;
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+
+#project-title {
+	font-weight: bold;
+	color: #FF530D;
+}
+
+.material-icons {
+	color: #464a4e;
+}
+
+.card-content {
+	background: url("../images/dust_scratches.png");
+}
 
 /*******************************************Media Queries************************************************/
 
