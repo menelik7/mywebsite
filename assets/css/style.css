@@ -2,12 +2,15 @@ body {
 	
 }
 
+/*************************************************Main Content*******************************************************/
+
+/******************* 1. Landing Page */
+
 #landing-page {
 	background: url("../images/falc3.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
-	
-	
 	color: #464a4e;
+	width: 100%;
 }
 
 .row {
@@ -51,7 +54,6 @@ a:hover {
 	cursor: pointer;
 }
 
-/*************************************************Main Content*******************************************************/
 
 /* 1.Work */
 
@@ -116,12 +118,12 @@ a:hover {
 }
 
 
-/* 1.About */
+/********************** 2. About */
 
-/* 3. Portfolio */
+/********************** 3. Portfolio */
 
 #portfolio-page {
-	background: url("../images/dust_scratches.png");
+	background: url("../images/brickwall_@2X.png");
 	color: #464a4e;
 }
 
@@ -129,6 +131,7 @@ a:hover {
 	padding: 0;
 	margin-top: 22px;
 	margin-bottom: 22px;
+	margin-left: 35px;
 }
 
 #project-title {
