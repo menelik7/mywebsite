@@ -3,15 +3,13 @@ body {
 }
 
 /*************************************************Main Content*******************************************************/
-
-/******************* 1. Landing Page */
-
-#landing-page {
+.container-fluid {
 	background: url("../images/falc3.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	color: #464a4e;
-	width: 100%;
+	font-family: 'Fjalla One', sans-serif;
 }
+/******************* 1. Landing Page */
 
 .row {
 	padding: 15px;
@@ -21,7 +19,6 @@ body {
 /*Header/Navbar*/
 
 #header {
-	font-family: 'Fjalla One', sans-serif;
 	padding-left: 80px;
 	padding-right: 80px;
 }
@@ -30,18 +27,20 @@ body {
 	cursor: pointer;
 }
 
-h2,
-#learn-more,
-#mission-statement {
-	font-family: 'Fjalla One', sans-serif;
-}
-
 a {
 	color: #464a4e;
 }
 
 a:hover {
 	color: #FF530D;
+}
+
+i:hover {
+	color: #FF530D;
+}
+
+#navbar {
+	padding-right: 19px;
 }
 
 #home {
@@ -127,16 +126,21 @@ a:hover {
 	color: #464a4e;
 }
 
+#quality3 {
+	margin-top: 450px;
+	font-family: 'Righteous', cursive;
+	font-size: 7em;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
 #portfolio-cards {
 	padding: 0;
-	margin-top: 22px;
-	margin-bottom: 22px;
-	margin-left: 35px;
+	margin: 22px auto;
 }
 
 #project-title {
 	font-weight: bold;
-	color: #FF530D;
 }
 
 .material-icons {
@@ -144,7 +148,7 @@ a:hover {
 }
 
 .card-content {
-	background: url("../images/dust_scratches.png");
+	background: url("../images/brickwall_@2X.png");
 }
 
 /*******************************************Media Queries************************************************/
