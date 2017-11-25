@@ -238,7 +238,11 @@ ul {
 	
 	#header {
 		padding: 20px 20px 0 20px;
-		background: url("../images/falc3.jpg");
+		background: url("../images/falc3-sm.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	#name-container,
