@@ -69,7 +69,7 @@ ul {
 /* 1.Work */
 
 #brief {
-	margin-top: 50px;
+	margin-top: 20px;
 	padding-right: 0;
 }
 
@@ -238,7 +238,7 @@ ul {
 	
 	#header {
 		padding: 20px 20px 0 20px;
-		background: url("../images/falc3-sm.jpg") no-repeat center center fixed; 
+		background: url("../images/falc3-sm.jpg") no-repeat center center; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
