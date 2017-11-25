@@ -3,11 +3,6 @@ body {
 }
 /*************************************************Main Content*******************************************************/
 .container-fluid {
-	background: url("../images/falc3.jpg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 	color: #464a4e;
 	font-family: 'Fjalla One', sans-serif;
 }
@@ -23,6 +18,11 @@ body {
 #header {
 	padding-left: 80px;
 	padding-right: 80px;
+	background: url("../images/falc3.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #name {
@@ -42,7 +42,7 @@ i:hover {
 }
 
 #navbar {
-	padding-right: 19px;
+	padding-right: 50px;
 }
 
 ul {
@@ -205,18 +205,15 @@ ul {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 
-	.container-fluid {
-		background: url("../images/falc3-sm.jpg") no-repeat center center fixed; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
 	/*Header/Navbar*/
 	
 	#header {
 		padding: 20px 20px 0 20px;
+		background: url("../images/falc3.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 	#name {
 		cursor: pointer;
@@ -253,7 +250,7 @@ ul {
 		
 	/* Qualities */
 	#quality1 {
-		margin-top: -10px;
+		margin-top: -5px;
 		text-align: center;
 		min-height: 200px;
 		font-family: 'Righteous', cursive;
