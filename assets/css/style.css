@@ -206,7 +206,7 @@ ul {
 @media (max-width: 575px) {
 
 	.container-fluid {
-		background: url("../images/falc3.jpg") no-repeat center center fixed; 
+		background: url("../images/falc3-sm.jpg") no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
