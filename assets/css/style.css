@@ -17,7 +17,7 @@ body {
 
 #header {
 	padding-left: 80px;
-	padding-right: 80px;
+	padding-right: 40px;
 	background: url("../images/falc3.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -25,8 +25,14 @@ body {
 	background-size: cover;
 }
 
+#name-container {
+	display: flex;
+	align-items: center;
+}
+
 #name {
 	cursor: pointer;
+	margin: 0;
 }
 
 a {
@@ -42,13 +48,12 @@ i:hover {
 }
 
 #navbar {
-	padding-right: 50px;
+	display: flex;
+	align-items: center;
 }
 
 ul {
-	display: flex;
-	justify-content: flex-end;
-	text-align: end;
+	
 }
 
 #home {
@@ -61,8 +66,12 @@ ul {
 	cursor: pointer;
 }
 
-
 /* 1.Work */
+
+#brief {
+	margin-top: 50px;
+	padding-right: 0;
+}
 
 #job-title {
 	margin-top: 8%;
@@ -113,8 +122,7 @@ ul {
 }
 
 #quality2 {
-	float: right;
-	margin-right: 20px;
+	margin-left: -35px;
 	margin-top: 150px;
 	font-family: 'Righteous', cursive;
 	font-size: 5em;
@@ -137,30 +145,40 @@ ul {
 
 #banner {
 	max-height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-center;
 }
 
 #about-me {
 	font-family: 'Righteous', cursive;
 	font-size: 7em;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #about-para {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 #about-story {
 	background-color: #464a4e;
 	min-height: 400px;
-	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #about-focus {
 	background-color: #fff;
 	min-height: 400px;
-	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #story {
@@ -174,13 +192,21 @@ ul {
 	color: #464a4e;
 }
 
+#business_center {
+	font-size: .5em;
+	margin-left: 20px;
+}
+
 #quality3 {
-	margin-top: 450px;
+	margin-top: 300px;
 	font-family: 'Righteous', cursive;
 	font-size: 7em;
 	-ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
     transform: rotate(-90deg);
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #portfolio-cards {
 	padding: 0;
@@ -212,26 +238,18 @@ ul {
 	
 	#header {
 		padding: 20px 20px 0 20px;
-		background: url("../images/falc3.jpg") no-repeat center center fixed; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-	#name {
-		cursor: pointer;
-		text-align: center;
-	}
-	
-	#navbar {
-		padding: 0 15px;
-		width: 100%;
+		background: url("../images/falc3.jpg");
 	}
 
-	ul {
+	#name-container,
+	#navbar {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+
+	#brief {
+		margin-top: 0;
 	}
 	
 	/* 1.Work */
@@ -264,11 +282,11 @@ ul {
 	}
 
 	#quality2 {
-		margin-right: 40px;
+		margin-left: 0;
 		margin-top: 20px;
 		font-family: 'Righteous', cursive;
 		font-size: 4em;
-		justify-content: center;
+		text-align: center;
 	}
 	/********************** 2. About */
 	
@@ -294,7 +312,13 @@ ul {
 		-ms-transform: rotate(0deg); /* IE 9 */
 	    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
 	    transform: rotate(0deg);
-	    text-align: center;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	#business_center {
+		padding-left: 10px;
 	}
 }
 
