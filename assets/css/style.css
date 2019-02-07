@@ -231,6 +231,132 @@ ul {
 
 /*******************************************Media Queries************************************************/
 
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { 
+	 
+	/*Header/Navbar*/
+
+	#header {
+		padding-left: 20px;
+		padding-right: 20px;
+		background: url("../images/falc3.jpg") no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#name-container {
+		display: flex;
+		align-items: center;
+	}
+
+	#name {
+		cursor: pointer;
+		margin: 0;
+	}
+
+	a {
+		color: #464a4e;
+	}
+
+	a:hover {
+		color: #FF530D;
+	}
+
+	i:hover {
+		color: #FF530D;
+	}
+
+	#navbar {
+		display: flex;
+		align-items: center;
+	}
+
+	ul {
+		
+	}
+
+	#home {
+		margin-top: -3px;
+		margin-right: -3px;
+	}
+
+	#contact {
+		border-radius: 20px;
+		cursor: pointer;
+	}
+
+	/* 1.Work */
+
+	#brief {
+		margin-top: 20px;
+		padding-right: 0;
+	}
+
+	#job-title {
+		margin-top: 8%;
+		border-left: 2px solid #868e96;
+		padding-left: 15px;
+	}
+
+	#boldletter {
+		color: #FF530D;
+		font-weight: bold;
+		font-size: 2em;
+	}
+
+	#mission-statement {
+		padding-left: 20px;
+	}
+
+	#learn-more {
+		margin-left: 20px;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+
+	/*Qualities*/
+	#quality-initial1,
+	#quality-initial2 {
+		font-family: 'Monoton', cursive;
+		
+	}
+
+	#quality-initial1 {
+		color: #FF530D;
+	}
+
+	#quality-initial2 {
+		color: #FFF;
+	}
+
+	#quality1 {
+		margin-top: 150px;
+		text-align: center;
+		min-height: 530px;
+		font-family: 'Righteous', cursive;
+		font-size: 7em;
+		-ms-transform: rotate(-90deg); /* IE 9 */
+	    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(-90deg);
+	}
+
+	#quality2 {
+		margin-left: -35px;
+		margin-top: 150px;
+		font-family: 'Righteous', cursive;
+		font-size: 5em;
+	}
+	/*pic*/
+	#mypic {
+		border-radius: 10px;
+	}
+
+}
+
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
 
@@ -320,15 +446,6 @@ ul {
 	    justify-content: center;
 	    align-items: center;
 	}
-
-	#business_center {
-		padding-left: 10px;
-	}
-}
-
-/* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767px) { 
-	 
 }
 
 /* Medium devices (tablets, less than 992px) */
